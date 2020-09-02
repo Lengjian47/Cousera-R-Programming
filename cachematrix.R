@@ -1,7 +1,7 @@
 ##These two functions that are used to create a special object 
 ## that stores a numeric matrix and cache‘s its diagonal matrix.
 
-#This function creates a special "matrix"
+#This function creates a special "matrix" and set/get the value of matrix& diagonal
 
 makeCacheMatrix <- function(x = matrix()) {
   dia <- NULL
